@@ -75,6 +75,8 @@ public class Main {
                     if (command.equals("exit")) {
                         dataProvider.doSave();
                         System.exit(0);
+                    } else if (command.equals("save")) {
+                        dataProvider.doSave();
                     } else {
                         System.out.println("Command not found!\n");
                     }
